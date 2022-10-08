@@ -1,0 +1,3 @@
+framework:
+    mailer:
+        dsn: 'gmail://%env(GMAIL_EMAIL)%:%env(GMAIL_PASSWORD)%@default'
